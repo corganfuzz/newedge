@@ -1,11 +1,9 @@
 import React from 'react';
+import Dashboard from './components/Dashboard';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-     <h2>Hello World</h2>
-    </div>
+    <Dashboard />
   );
 }
 
-export default App;
